@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<!--
+	 by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>mlt</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Banner -->
+			<section id="banner">
+				<h2><strong>Machine Learn Tinder</strong></h2>
+				<h3 style="font-size:75%">Sebastian Perez, Michael Gallagher</h3>
+				<h3 style="font-size:75%"> sebastianperez2017@u.northwestern.edu</h3>
+				<h1><strong>EECS 349 - Northwestern University</strong></h4>
+			</section>
+
+    
+        <!-- Abstract -->
+            <section id="Source" class="wrapper special">
+				    <div class="inner">
+					    <header>
+						    <h2>
+						        <strong>
+						            <a href="https://github.com/sgp715/mlt" class="button special" target = "_blank"> Source </a>
+						        </strong>
+						    </h2>
+					    </header>
+					    <p>
+                        This project was coded in python, javascript and bash. Python was used in concatenation with javascript to create scripts that would automatically collect data for tinder users by making http request. These scrips were run inside a cronjob which allowed us to collect data continuously. The data was then examined in python using the sklearn library. Sklearn contains many hand machine learning utilities that were used to implement this project. By clicking the source button above you can follow a link to the Github where the code for this project is maintianed.           
+                        </p>					    
+		            </div>
+			    </section>
+			
+        <!-- Abstract -->
+			<section id="Abstract" class="wrapper special">
+				<div class="inner">
+					<header>
+						<h2><strong>Abstract</strong></h2>
+					</header>
+					    <p align="left">For our project we have applied machine learning to tinder’s API. The goal of this learning is to be able to match with a high percentage of people that like on the app. The interest of this project is that we take on the complex process of human attraction and attempt to create a program that can understand what makes one person attractive to another using only the data that can be found in a Tinder profile.
+					    </p>
+						    
+						    
+					    <p align="left">
+					    The solution for us was to use a series of different learning techniques and attribute sets and determine which combination of them would give us an improved like to match ratio.
+					    </p>
+						    
+						    
+					    <p align="left">
+					    The first thing that we did was to obtain the data by running a script that constantly liked users. Once we had this data, we ran different machine learning techniques that used different attribute sets. Then we ran 10-fold cross validation and saw how many people matched compared to how many people were liked by that specific combination of techniques and attributes.
+					    </p>
+						    
+						    
+					    <p align="left">
+					    The hardest part about this project is that Tinder does not enforce users to have photos that are clear or even of themselves. As a result, the hardest thing was that analyzing photos for say attractiveness, proved very difficult. Since physical appearance most likely has a huge impact on who matches with who on Tinder the absence of this attribute in training and testing was most likely detrimental to our results.
+					    </p>					
+			    </div>
+			</section> 
+
+        <!-- Final Report -->     
+            <section id="Report PDF" class="wrapper special">
+				<div class="inner">
+					<header>
+						<h2><strong>Final Report</strong></h2>
+					</header>
+					<ul class="actions">
+					<li><a href="documents/FinalReport.pdf" class="button special">Download Report (PDF)</a></li>
+				    </ul>
+		        </div>
+			</section>
+				
+	</body>
+</html>

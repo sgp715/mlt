@@ -66,6 +66,10 @@ session = pynder.Session(identification, authentication)
 matches = session.matches()
 matched_users = [match.user for match in matches]
 matched_array = sort_data(matched_users)
+print "length matches: " + str(len(matched_array))
+    
+print "save path: " + us + "liked_not_matched_users"
+save(matched_array, us + "matched_users")
 
 # get nearby users
 nearby_users = session.nearby_users()
@@ -95,16 +99,12 @@ if len(nearby_users) > 0:
         if no_dups:
             filtered_liked_not_matched_users.append(user)
                 
-        
-        
+
     #print "matched: " + str(len(matched_array))
     print "length before filter: " + str(len(liked_not_matched_users))
     print "length after filtering: " + str(len(filtered_liked_not_matched_users))
-    print "length matches: " + str(len(matched_array))
     
     
-    print "save path: " + us + "liked_not_matched_users"
-    save(matched_array, us + "matched_users")
     #save(matched_array, us + "data_backup/matched_users")
     save(filtered_liked_not_matched_users, us + "liked_not_matched_users")
     #save(filtered_liked_not_matched_users, us + "data_backup/liked_not_matched_users")
