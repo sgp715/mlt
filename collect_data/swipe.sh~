@@ -1,0 +1,23 @@
+#!/bin/bash
+
+my_pwd="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"/
+
+files="users/*"
+for f in $files
+do
+
+    echo $f
+    
+    identification=$(sed '1q;d' $f)
+    user=$(sed '2q;d' $f)
+    pass=$(sed '3q;d' $f)
+
+    #authentication=$(casperjs $my_pwd'update_token.js' $user $pass)
+
+    echo "*********************"
+    echo "ran cron tab"
+    #python $my_pwd'swipe.py' $identification $authentication $my_pwd
+    dt=$(date)
+    echo $dt 
+    echo "*********************"
+done

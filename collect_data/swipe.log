@@ -1,0 +1,248 @@
+*********************
+ran cron tab
+out of swipes and out of luck
+Sat Jun 4 22:10:25 CDT 2016
+*********************
+*********************
+ran cron tab
+out of swipes and out of luck
+Sat Jun 4 22:11:24 CDT 2016
+*********************
+*********************
+ran cron tab
+out of swipes and out of luck
+Sun Jun 5 02:00:25 CDT 2016
+*********************
+*********************
+ran cron tab
+liking: Theresa
+liking: Lucy
+liking: Agona
+liking: Krithika
+liking: Christie
+liking: Atra
+liking: Sara
+liking: Hannah
+liking: Monica
+liking: Karolina
+liking: Rachel
+liking: Lexi
+liking: Claudia
+Sun Jun 5 12:00:33 CDT 2016
+*********************
+*********************
+ran cron tab
+liking: Hannah
+liking: Karen
+liking: Maryam
+liking: Jessica
+liking: Brittany
+liking: Maegan
+liking: Sheena
+liking: Amita
+liking: Danielle
+liking: Diana
+liking: Christina
+liking: Brandi
+liking: Amanda
+Sun Jun 5 14:00:28 CDT 2016
+*********************
+*********************
+ran cron tab
+liking: Olivia
+liking: Kelsey
+liking: Rachel
+liking: Vivian
+liking: Ashley
+liking: Tali
+liking: Taylor
+liking: Magdalen
+liking: Stefanie
+liking: Molly
+liking: Kasia
+liking: Joanna
+liking: Mackenzie
+Sun Jun 5 18:00:26 CDT 2016
+*********************
+*********************
+ran cron tab
+liking: Sarah
+liking: Tiffany
+liking: Sara
+liking: Maddie
+liking: Katie
+liking: Kylie
+liking: Maria
+liking: Megan
+liking: Hunter
+liking: Nicole
+liking: Michaela
+liking: Lisa
+Sun Jun 5 20:00:26 CDT 2016
+*********************
+*********************
+ran cron tab
+liking: Samantha
+liking: Summer
+liking: Britny
+liking: Andrea
+liking: Brigitte
+liking: Marek
+liking: Yulia
+liking: Isamar
+liking: Jamie
+liking: Jenna
+liking: Quincy
+liking: Nicole
+Sun Jun 5 22:00:27 CDT 2016
+*********************
+*********************
+ran cron tab
+liking: Megan
+liking: Hannah
+liking: Noelle
+liking: Samantha
+liking: Rachel
+liking: Sara
+liking: Catherine
+liking: Kate
+liking: Nicole
+liking: Joey
+liking: Melissa
+liking: Carol
+Mon Jun 6 02:00:29 CDT 2016
+*********************
+*********************
+ran cron tab
+liking: Megs
+liking: Jessica
+liking: Paulina
+liking: Erin
+liking: Kimmy
+liking: Mary
+Traceback (most recent call last):
+  File "/home/seb/projects/tinder/swipe.py", line 38, in <module>
+    print "liking: " + user.name
+UnicodeEncodeError: 'ascii' codec can't encode character u'\u017c' in position 11: ordinal not in range(128)
+Mon Jun 6 12:00:30 CDT 2016
+*********************
+*********************
+ran cron tab
+liking: Nicole
+liking: Annie
+liking: Emily
+liking: Bryanna
+liking: Jenna
+liking: Dilara
+liking: Nicole
+liking: Melanie
+liking: Lauren
+liking: Kate
+liking: Hannah
+Mon Jun 6 14:00:28 CDT 2016
+*********************
+*********************
+ran cron tab
+liking: Lauren
+liking: Cal
+liking: Aylin
+liking: Nicole
+liking: Brittany
+liking: Karolina
+liking: Jade
+liking: Michelle
+liking: Olivia
+liking: Bonnie
+liking: Mallory
+liking: Gabby
+liking: Caressa
+Mon Jun 6 16:00:57 CDT 2016
+*********************
+*********************
+ran cron tab
+Traceback (most recent call last):
+  File "/home/seb/projects/tinder/swipe.py", line 27, in <module>
+    session = pynder.Session(identification, auth)
+  File "/usr/local/lib/python2.7/dist-packages/pynder/session.py", line 13, in __init__
+    self._api.auth(facebook_id, facebook_token)
+  File "/usr/local/lib/python2.7/dist-packages/pynder/api.py", line 27, in auth
+    raise errors.RequestError("Couldn't authenticate")
+pynder.errors.RequestError: Couldn't authenticate
+Mon Jun 6 18:00:09 CDT 2016
+*********************
+*********************
+ran cron tab
+liking: Megan
+liking: Karolina
+liking: Katie
+liking: Brooke
+liking: Taylor
+liking: Kim
+liking: Gianna
+liking: Angie
+liking: Milica
+liking: Madee
+liking: Tori
+Mon Jun 6 20:00:26 CDT 2016
+*********************
+*********************
+ran cron tab
+liking: Chantelle
+liking: Nina
+liking: Elizabeth
+liking: Sandra
+liking: Rachel
+liking: Brynn
+liking: Adele
+liking: Lindsay
+liking: Karolin
+liking: Katie
+liking: Emily
+liking: Kathleen
+Mon Jun 6 22:00:31 CDT 2016
+*********************
+*********************
+ran cron tab
+liking: Liana
+liking: Fernanda
+liking: Paloma
+liking: Yasmina
+liking: Michelle
+liking: Maddie
+liking: Emily
+liking: Vicki
+liking: Rebecca
+liking: Erika
+liking: Natalie
+Tue Jun 7 00:00:26 CDT 2016
+*********************
+*********************
+ran cron tab
+liking: Ellen
+liking: Alejandra
+liking: Cheryl
+liking: Nicole
+liking: Melanie
+liking: Ashley
+liking: Claire
+liking: Katie
+liking: Sofia
+liking: Melissa
+liking: McKenna
+liking: Toni
+liking: Nora
+Tue Jun 7 02:00:26 CDT 2016
+*********************
+*********************
+ran cron tab
+Traceback (most recent call last):
+  File "/home/seb/projects/tinder/swipe.py", line 22, in <module>
+    token_file = open(pwd + "new_token.txt",'r')
+IOError: [Errno 2] No such file or directory: '/home/seb/projects/tinder/new_token.txt'
+Tue Jun 7 16:00:20 CDT 2016
+*********************
+*********************
+ran cron tab
+out of swipes and out of luck
+Tue Jun 7 17:00:27 CDT 2016
+*********************
